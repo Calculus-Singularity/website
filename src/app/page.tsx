@@ -107,24 +107,14 @@ export default function Home() {
       {/* Footer */}
       <footer className="border-t border-border py-6">
         <div className="max-w-6xl mx-auto px-6">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-muted">
-            <div className="flex items-center gap-3">
-              <Image
-                src="/logo.svg"
-                alt="Calculus Singularity"
-                width={20}
-                height={16}
-              />
-              <span>© {new Date().getFullYear()} Calculus Singularity</span>
-            </div>
-            <a 
-              href="https://github.com/calculus-singularity" 
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-foreground transition-colors"
-            >
-              <GitHubIcon className="w-6 h-6" />
-            </a>
+          <div className="flex items-center justify-center gap-3 text-sm text-muted">
+            <Image
+              src="/logo.svg"
+              alt="Calculus Singularity"
+              width={20}
+              height={16}
+            />
+            <span>© {new Date().getFullYear()} Calculus Singularity</span>
           </div>
         </div>
       </footer>
