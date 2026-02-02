@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160">
+  <defs>
+    <style>
+      .stroke {
+        fill: none;
+        stroke: #e2e8f0;
+        stroke-miterlimit: 8;
+        stroke-width: 2;
+      }
+    </style>
+  </defs>
+  <!-- Horizontal line -->
+  <line class="stroke" x1="10" y1="80" x2="190" y2="80"/>
+  <!-- Upper chevron -->
+  <path class="stroke" d="M40,66 L100,8 L160,66"/>
+  <!-- Upper horizontal lines -->
+  <line class="stroke" x1="27" y1="66" x2="53" y2="66"/>
+  <line class="stroke" x1="147" y1="66" x2="173" y2="66"/>
+  <!-- Lower chevron -->
+  <path class="stroke" d="M40,94 L100,152 L160,94"/>
+  <!-- Lower horizontal line -->
+  <line class="stroke" x1="70" y1="123" x2="130" y2="123"/>
+</svg>
