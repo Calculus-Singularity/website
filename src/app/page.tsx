@@ -81,7 +81,6 @@ export default function Home() {
                 width={240}
                 height={192}
                 className="animate-float"
-                priority
               />
               
               {/* Bottom title */}

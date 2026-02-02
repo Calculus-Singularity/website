@@ -20,7 +20,7 @@ const orbitron = Orbitron({
 });
 
 export const metadata: Metadata = {
-  title: "Calculus Singularity | Software Solutions",
+  title: "Calculus Singularity",
   description: "Building the future of software with SaaS solutions and programming language tools.",
   keywords: ["software", "SaaS", "programming tools", "developer tools"],
   icons: {
