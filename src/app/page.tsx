@@ -96,9 +96,14 @@ export default function Home() {
             >
               An early-stage team based in China, passionate about open source, AI,
               functional programming, and PL theory — building SaaS and language toolchains.
-              <br className="hidden sm:block" />
-              <span className="text-accent">We&apos;re hiring.</span>
             </motion.p>
+            <motion.a
+              variants={fadeInUp}
+              href="mailto:lampese@calculus-singularity.com"
+              className="text-lg text-accent hover:text-accent-hover transition-colors"
+            >
+              We&apos;re hiring.
+            </motion.a>
           </motion.div>
         </div>
       </section>
